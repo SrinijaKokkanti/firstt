@@ -1,1 +1,17 @@
+# Ignore compiled Java files
+*.class
 
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/target/
+/build/
+
+# Ignore sensitive files
+config.ini
+.env
+
+# Ignore virtual environment files
+venv/
